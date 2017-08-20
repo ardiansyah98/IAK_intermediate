@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical" android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/favImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher" />
+    <TextView
+        android:id="@+id/favTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Dummy Title"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="bottom"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="#55000000"/>
+</FrameLayout>
+
+
+
+</RelativeLayout>
